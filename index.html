@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./reset/reset.css">
+    <link href="https://db.onlinewebfonts.com/c/793a2072094db79606185e94f71ba14b?family=Striker" rel="stylesheet">"
+    <link href="https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold" rel="stylesheet">
+    <title>X5 dos crias</title>
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo_da_pagina">X5 CS ALBQ</h1>
+        <div class="cabecalho_opcoes">
+            <ul class="lista_de_opcoes">
+                <li>
+                    <button data-contexto="lol" id="lol" class="botao_lol active">LOL</button>
+                </li>
+                <li>
+                    <button data-contexto="aram" id="aram" class="botao_aram">ARAM</button>
+                </li>
+                <li>
+                    <button data-contexto="cs" id="cs" class="botao_cs">CS<strong class="estilo_do_go">:GO</strong></button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="card_nome_jogadores">
+    <label for="nomes" class="titulo_nome">Insira os nome dos dez jogadores:</label>
+    <input class="box__nome" id="nomes" type="text" placeholder="Nomes dos jogadores">
+
+    <button id="sortear">Sortear</button>
+    </section>
+    <section class="colunas">
+        <div class="colunaTimeA">
+            <label for="timeANomes">Time A:</label>
+            <input type="text" id="timeANomesSorteados" placeholder="Nome 1 do Time A">
+            <input type="text" id="timeANomesSorteados" placeholder="Nome 2 do Time A">
+            <input type="text" id="timeANomesSorteados" placeholder="Nome 3 do Time A">
+            <input type="text" id="timeANomesSorteados" placeholder="Nome 4 do Time A">
+            <input type="text" id="timeANomesSorteados" placeholder="Nome 5 do Time A">
+        </div>
+        <div class="colunaTimeB">
+            <label for="timeBNomes">Time B:</label>
+            <input type="text" id="timeBNomesSorteados" placeholder="Nome 1 do Time B">
+            <input type="text" id="timeBNomesSorteados" placeholder="Nome 2 do Time B">
+            <input type="text" id="timeBNomesSorteados" placeholder="Nome 3 do Time B">
+            <input type="text" id="timeBNomesSorteados" placeholder="Nome 4 do Time B">
+            <input type="text" id="timeBNomesSorteados" placeholder="Nome 5 do Time B">
+        </div>
+    </section>
+    
+</body>
+</html>

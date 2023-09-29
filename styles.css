@@ -1,0 +1,124 @@
+@import url(https://db.onlinewebfonts.com/c/793a2072094db79606185e94f71ba14b?family=Striker);
+@import url(https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold);
+@import url(https://images7.alphacoders.com/117/1174016.png);
+@import url(https://www.wallpaperflare.com/counter-strike-counter-strike-global-offensive-game-cg-games-art-wallpaper-caomu);
+@import url(https://videogames.si.com/guides/league-of-legends-season-2023-summary);
+
+body {
+    background-image: url(./imagens/background_lol.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fundo_da_pagina{
+    background-size: cover;
+    background-position: center;
+}
+
+.cabecalho {
+    display: block;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.titulo_da_pagina {
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+    font-family: "Beaufort for LOL Bold";
+    font-weight: 700;
+    font-size: 100px;
+    color: rgb(62, 161, 67);
+    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;
+}
+
+.lista_de_opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.botao_lol {
+    border: none;
+    font-family: "Beaufort for LOL Bold";
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(230, 177, 6);
+    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;
+}
+
+.botao_lol.active {
+    border-radius: 0.8rem;
+    background: var(--azul-royal);
+    font-weight: 600;
+}
+.botao_aram {
+    background: transparent;
+    border: none;
+    font-family: "Beaufort for LOL Bold";
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(54, 160, 247);
+    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;;
+}
+
+.botao_cs {
+    font-family: "Striker";
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.estilo_do_go {
+    color:  rgb(230, 177, 6);;
+}
+
+.card_nome_jogadores {
+    display: block;
+    margin:4em 0 0 35em;
+}
+
+.titulo_nome {
+    display: grid;
+    font-family: "Beaufort for LOL Bold";
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;;
+    margin-bottom: 0,5em;
+}
+
+.box__nome {
+    background: white;
+    border-radius: 0.6em;
+    border: none;
+    width:60%;
+    height: 3.2em;
+    position: relative;
+    vertical-align: middle;
+}
+
+.box__nome::placeholder {
+    font-family: "Beaufort for LOL BOld";
+    color: black;
+    border: none;
+}
+
+.card_nomes_sorteados {
+    margin: 5em 0 0 12em;
+    display: flex; /* Tornar flexível */
+}
+
+.coluna {
+    flex: 1; /* Distribuir espaço igualmente */
+    margin: 0 1em; /* Espaço entre as colunas */
+}
+
+.coluna h2 {
+    text-align: center;
+}
