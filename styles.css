@@ -1,0 +1,143 @@
+@import url(https://db.onlinewebfonts.com/c/793a2072094db79606185e94f71ba14b?family=Striker);
+@import url(https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold);
+@import url(https://images7.alphacoders.com/117/1174016.png);
+@import url(https://www.wallpaperflare.com/counter-strike-counter-strike-global-offensive-game-cg-games-art-wallpaper-caomu);
+@import url(https://videogames.si.com/guides/league-of-legends-season-2023-summary);
+
+body {
+    background-image: url(./imagens/background_lol.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.fundo_da_pagina{
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.titulo_da_pagina {
+    font-family: "Beaufort for LOL Bold";
+    font-weight: 600;
+    font-size: 100px;
+    color: rgb(62, 161, 67);
+    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;
+}
+
+.lista_de_opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 3em;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.botao_lol {
+    border: none;
+    background: transparent;
+    font-family: "Beaufort for LOL Bold";
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(230, 177, 6);
+    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;
+}
+.botao_aram {
+    background: transparent;
+    border: none;
+    font-family: "Beaufort for LOL Bold";
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(54, 160, 247);
+    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;;
+}
+
+.botao_cs {
+    font-family: "Striker";
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.estilo_do_go {
+    color:  rgb(230, 177, 6);
+}
+
+.card_nome_jogadores {
+    display: block;
+    width: 100%; /* Ocupa 100% da largura do pai */
+    max-width: 1200px; /* Largura máxima para evitar esticar demais */
+    margin: 0 auto;
+}
+
+.titulo_nome {
+    display: grid;
+    font-family: "Beaufort for LOL Bold";
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;
+    margin-bottom: 0.2em;
+}
+
+.box__nome {
+    background: white;
+    font-family: "Beaufort for LOL Bold";
+    border-radius: 8px;
+    border: none;
+    width: 60%; /* Ocupa 100% da largura do pai */
+    max-width: 1200px; /* Largura máxima para evitar esticar demais */
+    margin: 0 auto;
+    height: 3.2em;
+
+}
+
+.revelar {
+    display: grid;
+    background: transparent;
+    padding: 1em 2em;
+    border-radius: 24px;
+    margin: 2em 0 0 20em;
+}
+
+.colunas {
+    display: flex;
+    width: 100%; /* Ocupa 100% da largura do pai */
+    max-width: 1200px; /* Largura máxima para evitar esticar demais */
+    margin: 0 auto;
+}
+
+.timeANomesSorteados, .timeBNomesSorteados {
+    width: 100%; /* Ocupa 100% da largura do pai */
+    max-width: 1200px; /* Largura máxima para evitar esticar demais */
+    margin: 0 auto;
+}
+
+.nomesSorteados {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: transparent;
+    border-color: rgb(255, 209, 2);
+    width: 50%;
+    padding: 0.3em;
+    font-family: "Beaufort for LOL Bold";
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: rgba(0, 0, 0, 60) 0px 3px 3px;
+    color: rgb(43, 113, 153);
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
