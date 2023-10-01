@@ -5,16 +5,12 @@
 @import url(https://videogames.si.com/guides/league-of-legends-season-2023-summary);
 
 body {
+    display: block;
     background-image: url(./imagens/background_lol.webp);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
 }
 
 .fundo_da_pagina{
@@ -26,20 +22,28 @@ body {
 
 
 .titulo_da_pagina {
+    display: flex;
+    justify-content: center;
     font-family: "Beaufort for LOL Bold";
     font-weight: 600;
-    font-size: 100px;
-    color: rgb(62, 161, 67);
-    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;
+    font-size: 150px;
+    color: #C89B3C;
+    text-shadow: rgba(10, 200, 185, 100) 2px 4px 4px;
+}
+
+.cabecalho_opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lista_de_opcoes {
     display: flex;
-    align-items: center;
+    margin-top: 1.5em;
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    gap: 3em;
+    gap: 5em;
     cursor: pointer;
     outline: inherit;
 }
@@ -50,8 +54,8 @@ body {
     font-family: "Beaufort for LOL Bold";
     font-weight: 700;
     font-size: 70px;
-    color: rgb(230, 177, 6);
-    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;
+    color: #C89B3C;
+    text-shadow: rgba(10, 200, 185, 100) 1px 0px 9px;
 }
 .botao_aram {
     background: transparent;
@@ -59,8 +63,8 @@ body {
     font-family: "Beaufort for LOL Bold";
     font-weight: 700;
     font-size: 70px;
-    color: rgb(54, 160, 247);
-    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;;
+    color: rgb(10, 200, 185);
+    text-shadow: rgba(200, 170, 110, 50) 0px 4px 4px;
 }
 
 .botao_cs {
@@ -68,28 +72,30 @@ body {
     background: transparent;
     border: none;
     font-weight: 700;
-    font-size: 49px;
+    font-size: 51px;
+    text-shadow: rgba(0, 0, 0, 50) 0px 4px 4px;
+    color:  rgb(27, 27, 27);
 }
 
 .estilo_do_go {
-    color:  rgb(230, 177, 6);
+    color:  rgb(200, 155, 60);
+    text-shadow: rgba(0, 0, 0, 50) 0px 4px 4px;
 }
 
 .card_nome_jogadores {
-    display: block;
-    width: 100%; /* Ocupa 100% da largura do pai */
-    max-width: 1200px; /* Largura máxima para evitar esticar demais */
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2em auto;
 }
 
 .titulo_nome {
-    display: grid;
     font-family: "Beaufort for LOL Bold";
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    text-shadow: rgba(0, 0, 0, 50) 0px 5px 18px;
-    margin-bottom: 0.2em;
+    text-shadow: rgba(0, 0, 0, 50) 0px 4px 4px;
+    margin: 0.1em auto;
 }
 
 .box__nome {
@@ -97,19 +103,23 @@ body {
     font-family: "Beaufort for LOL Bold";
     border-radius: 8px;
     border: none;
-    width: 60%; /* Ocupa 100% da largura do pai */
-    max-width: 1200px; /* Largura máxima para evitar esticar demais */
-    margin: 0 auto;
     height: 3.2em;
-
+    box-shadow: rgba(0, 0, 0, 50) 0px 4px 4px;
 }
 
 .revelar {
-    display: grid;
-    background: transparent;
-    padding: 1em 2em;
+    background: rgb(114, 186, 245);
+    align-items: center;
+    width: 20%;
+    padding: 0.3em 0.2;
+    margin: 2em auto;
     border-radius: 24px;
-    margin: 2em 0 0 20em;
+    border: none;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 50) 2px 5px 5px;
+    font-family: "Beaufort for LOL Bold";
+    text-shadow: rgba(0, 0, 0, 50) 0px 1px 3px;
+    color: rgb(214, 200, 74);;
 }
 
 .colunas {
