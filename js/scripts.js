@@ -5,7 +5,7 @@ const inputNomes = document.getElementById("nomes");
 const botaoSortear = document.getElementById("sortear");
 
 lolBt.addEventListener ('click', () => {
-    document.body.style.backgroundImage = "url('/imagens/background_lol.webp')"
+    document.body.style.backgroundImage = "url('/imagens/sorakas_background.jpg')"
 })
 
 aramBt.addEventListener ('click', () => {

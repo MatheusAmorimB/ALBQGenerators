@@ -3,11 +3,12 @@
 @import url(https://images7.alphacoders.com/117/1174016.png);
 @import url(https://www.wallpaperflare.com/counter-strike-counter-strike-global-offensive-game-cg-games-art-wallpaper-caomu);
 @import url(https://videogames.si.com/guides/league-of-legends-season-2023-summary);
+@import url(https://www.wallpaperflare.com/soraka-league-of-legends-riot-games-support-league-of-legends-wallpaper-grazv/download/1920x1080);
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
 
 body {
     display: block;
-    background-image: url(./imagens/background_lol.webp);
+    background-image: url(./imagens/sorakas_background.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -19,8 +20,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-
 
 .titulo_da_pagina {
     display: flex;
@@ -56,7 +55,7 @@ body {
     font-weight: 700;
     font-size: 70px;
     color: #C89B3C;
-    text-shadow: rgba(10, 200, 185, 100) 1px 0px 9px;
+    text-shadow: rgba(10, 200, 185, 100) 2px 2px 4px;
 }
 
 .botao_aram {
@@ -122,7 +121,7 @@ body {
     align-items: center;
   }
   
-  .center {
+.center {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -130,10 +129,10 @@ body {
     /* position: absolute; */
   }
   
-  .btn {
+.btn {
     font-family: "Beaufort for LOL Bold"; 
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
     width: 180px;
     height: 60px;
     cursor: pointer;
@@ -145,7 +144,7 @@ body {
   }
   
   svg {
-    /* position: absolute; */
+    position: absolute;
     left: 0;
     top: 0;
     fill: none;
@@ -155,35 +154,43 @@ body {
     transition: 1s ease-in-out;
   }
   
-  .btn:hover {
+.btn:hover {
     transition: 1s ease-in-out;
     background: #4F95DA;
   }
   
-  .btn:hover svg {
+.btn:hover svg {
     stroke-dashoffset: -480;
   }
-  
 
+.subtituloColunaTimeV {
+    color: #ee4a4a;
+    padding-right: 6.4em;
+    font-size: 30px;
+    font-family: "Beaufort for LOL Bold"; 
+    text-shadow: rgba(0, 0, 0, 50) 5px 2px 3px;
+}
 
+.subtituloColunaTimeA {
+    color: #4F95DA;
+    font-size: 30px;
+    font-family: "Beaufort for LOL Bold"; 
+    text-shadow: rgba(0, 0, 0, 50) 5px 2px 3px;
+}
 
 .colunas {
     display: flex;
     width: 100%;
-    gap: 3em;
+    gap: 24em;
     justify-content: center;
-    /* margin: 10em; */
-}
-
-.subtituloColuna{
-    display: flex;
-    color: white;
+    margin-top: 1em;
 }
 
 .timeANomesSorteados,
 .timeBNomesSorteados {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2em;
 }
 
@@ -194,9 +201,10 @@ body {
     font-weight: 600;
     font-size: 30px;
     text-shadow: rgba(0, 0, 0, 60) 0px 2px 2px;
-    color: rgb(43, 113, 153);
+    color: rgb(18, 140, 211);
     text-align: center;
     display: flex;
     justify-content: center;
-    
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 50) 5px 2px 10px;
 }
