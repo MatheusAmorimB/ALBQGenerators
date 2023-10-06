@@ -52,5 +52,6 @@ function preencherColuna(colunaId, nomes) {
         input.value = nome;
         input.classList.add("nomesSorteados");
         coluna.appendChild(input);
+        input.style.filter = "none"
     });
     }
